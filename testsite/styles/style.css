@@ -2,22 +2,36 @@
     border-style: Solid;
     border-width: 10px;
     border-color: black;
+    border-radius: 10px;
   }
   html {
     font-size: 18px;
     font-family: "Oswald", sans-serif; 
-    background-color: #3D056A;
+    background-color: #35044C;
   }
   h1 {
     font-size: 60px;
     text-align: center;
+    margin: 5px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
   }
-  
   p, li {
-    font-size: 16px;    
+    font-size: 30px;    
+    margin: 25px;
     line-height: 2;
     letter-spacing: 1px;
   }
-  .center-image {
+  body {
+    background-color: #3D056A;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
     text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
   }
