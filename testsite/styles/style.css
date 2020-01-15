@@ -9,6 +9,13 @@
     font-family: "Oswald", sans-serif; 
     background-color: #35044C;
   }
+  a   {
+   color:black;
+   text-decoration: underline;
+}
+#link {
+  font-size: 10px;
+}
   hr {
     color: black;
     background-color: black;
@@ -42,7 +49,7 @@
     margin: 0 auto;
   }
   a:hover {
-    color: black;
+    color: silver;
   }
   h3 {
     font-size: 25px;
