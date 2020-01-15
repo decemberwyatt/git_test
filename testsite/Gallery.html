@@ -3,7 +3,7 @@
 <head> <title>The Majesty of The Universe</title>
 <style>
 div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid black;
 }
 div.gallery:hover {
   border: 1px solid #777;
@@ -45,56 +45,79 @@ html {
     font-family: "Oswald", sans-serif; 
     background-color: #35044C;
   }
+  body {
+    background-color: #3D056A;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    text-align: center;
+  }
+  hr {
+    color: black;
+    background-color: black;
+    height: 1px;
+    border: solid;
+  }
+  h3 {
+      font-size: 12px;
+  }
+  a {
+      color: black;
+  }
+  a:hover {
+      color: silver;
+  }
 </style>
 </head>
 <body>
 
-<h2>Responsive Image Gallery</h2>
-<h4>Resize the browser window to see the effect.</h4>
-
+<h2>The Majesty of The Universe</h2>
+<h3>Click photos for Full-Size.</h3>
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    <a target="_blank" href="images/butterfly.jpg">
+      <img src="images/butterfly.jpg" alt="Purple Nebula" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">What looks like a red butterfly in space is in reality a nursery for hundreds of baby stars, revealed in this infrared image from <strong>NASA</strong>'s <i>Spitzer Space Telescope</i>.</div>
   </div>
 </div>
 
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    <a target="_blank" href="images/galaxy.jpg">
+      <img src="images/galaxy.jpg" alt="Galaxy" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">The galaxy Messier 101 is a swirling spiral of stars, gas, and dust. Messier 101 is nearly twice as wide as our Milky Way galaxy. <i>Spitzer</i>'s view, taken in infrared light, reveals the galaxy's delicate dust lanes as yellow-green filaments.</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    <a target="_blank" href="images/dumbell.jpg">
+      <img src="images/dumbell.jpg" alt="Dumbell Nebula" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">This nebula was named after its resemblance to a dumbbell as seen in visible light. It was discovered in 1764 by <strong>Charles Messier</strong>, who included it as the 27th member of his famous catalog of nebulous objects.</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="images/double.jpg">
+      <img src="images/double.jpg" alt="Galaxy Collision" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">The Antennae galaxies take their name from the long, antenna-like arms seen in wide-angle views of the system. These features were produced in their collision. </div>
   </div>
 </div>
 
 <div class="clearfix"></div>
 
 <div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+  <p>The images shown here have been taken from the <strong>NASA</strong> Arcives & are labeled for resuse. </p>
 </div>
-
+<hr>
+<a href="index.html">Back to Home Page.</a>
 </body>
 </html>
