@@ -9,6 +9,12 @@
     font-family: "Oswald", sans-serif; 
     background-color: #35044C;
   }
+  hr {
+    color: black;
+    background-color: black;
+    height: 1px;
+    border: solid;
+  }
   h1 {
     font-size: 60px;
     text-align: center;
@@ -38,3 +44,7 @@
   a:hover {
     color: black;
   }
+  h3 {
+    font-size: 25px;
+  }
+ 
