@@ -8,7 +8,7 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/space2.jpg');
     }
 }
-let myButton = document.querySelector('button');
+let myButton = document.querySelector('#sbmt');
 let myHeading = document.querySelector('h2');
 
   function setUserName() {
