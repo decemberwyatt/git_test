@@ -3,6 +3,8 @@
     border-width: 10px;
     border-color: black;
     border-radius: 10px;
+    width: 500px;
+    height: 400px;
   }
   html {
     font-size: 18px;
@@ -15,6 +17,7 @@
 }
 #link {
   font-size: 10px;
+  padding: 0px;
 }
   hr {
     color: black;
@@ -54,4 +57,3 @@
   h3 {
     font-size: 25px;
   }
- 
