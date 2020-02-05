@@ -9,7 +9,7 @@
   html {
     font-size: 18px;
     font-family: "Oswald", sans-serif; 
-    background-color: #35044C;
+    background-color: #090539;
   }
   a   {
    color:black;
@@ -40,7 +40,7 @@
     letter-spacing: 1px;
   }
   body {
-    background-color: #3D056A;
+    background-color: #35044C;
     width: 700px;
     box-sizing: border-box;
     margin: 0 auto;
