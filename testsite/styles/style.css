@@ -3,8 +3,8 @@
     border-width: 10px;
     border-color: black;
     border-radius: 10px;
-    width: 500px;
-    height: 400px;
+    max-width: 75%;
+    max-height: 400px;
   }
   html {
     font-size: 18px;
@@ -22,7 +22,7 @@
   hr {
     color: black;
     background-color: black;
-    height: 1px;
+    max-height: 1px;
     border: solid;
     border-radius: 25px;
   }
@@ -41,7 +41,7 @@
   }
   body {
     background-color: #35044C;
-    width: 700px;
+    max-width: 700px;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 5px 10px;
@@ -61,7 +61,7 @@
     font-size: 25px;
   }
   div {
-    width: 90%;
+    max-width: 90%;
     background-color: #370c77;
     border-color: black;
     border-style: solid;
