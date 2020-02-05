@@ -1,4 +1,15 @@
-  #wew {
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.fixed {
+  position: fixed;
+  left: 0;
+  max-width: 100px;
+  max-height: 300px;
+}
+ #wew {
     border-style: solid;
     border-width: 10px;
     border-color: black;
@@ -60,7 +71,7 @@
   h3 {
     font-size: 25px;
   }
-  div {
+  .para {
     max-width: 90%;
     background-color: #370c77;
     border-color: black;
