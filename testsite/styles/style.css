@@ -55,13 +55,14 @@
   }
   a:hover {
     color: silver;
+    text-shadow: 0 0 7px white;
   }
   h3 {
     font-size: 25px;
   }
   div {
     width: 90%;
-    background-color: #967da1;
+    background-color: #370c77;
     border-color: black;
     border-style: solid;
     border-radius: 15px;
@@ -72,4 +73,7 @@
   }
   h2 {
     margin: 5px 0px;
+  }
+  li {
+    color: silver;
   }
